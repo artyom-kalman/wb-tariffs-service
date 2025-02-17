@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.google_sheets_key.json
+google_sheets_url.json
+
+./build
