@@ -20,6 +20,17 @@ cd [папка-проекта]
 ```
 
 2. Настроить окружение:
+Добавить файл google_sheets_key.json, содержащий ключ доступа к Google Sheets API
+
+Добавить файл google_sheets_url.json, содержащий ссылки на таблицы Google Sheets
+```json
+{
+  "url": [
+    "https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/"
+  ]
+}
+```
+
 ```bash
 cp .env.example .env
 ```
