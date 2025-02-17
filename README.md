@@ -69,6 +69,7 @@ docker-compose up
 
 4. Настроить окружение:
 
+```
 POSTGRES_DB=wb_data_service
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
